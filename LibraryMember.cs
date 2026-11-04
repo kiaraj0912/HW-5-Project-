@@ -3,7 +3,7 @@
     public string MemberName { get; set; }
     public int OverdueDays;
 
-    private static int totalFine;
+    private int totalFine;
     private static int memberCount = 0;
 
     public LibraryMember(string memberName, int overdueDays)
